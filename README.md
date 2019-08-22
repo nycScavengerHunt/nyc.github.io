@@ -1,140 +1,54 @@
-# Lens - Jekyll Theme
+# Photography ![OpenCollective](https://opencollective.com/photography/tiers/backer/badge.svg?label=backer&color=brightgreen)
+A jekyll website for photographers
 
-A Jekyll version of the "Lens" theme by [HTML5 UP](https://html5up.net/).
+## Highlights
+1. Easy setup and you get a site of your own for __free__.
+2. To add new pictures, you need to just upload them. __No code__ changes required.
+3. This I like the most, you get to see EXIF data like __aperture, shutter speed, iso__ etc when you click on any image automagically.
 
-![Lens Theme](assets/images/lens.jpg "Lens Theme")
+## Quick Start
+If you know a tad about tech and love taking pictures then this open-source project may help you setup a website to showcase
+all your creations without effort. And not just that, with this you need not pay a single dime to host your website as
+it's hosted by GitHub for __free__.
 
-# How to Use
+**Just follow the below steps and your website would be live in no time:**
 
-For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
-and [creating pages](https://jekyllrb.com/docs/pages/).
+1. Fork this repo by hitting the `Fork` button at the top right corner.
+2. Enable github pages from the repo settings.
+3. Upload your pictures to `images/fulls` and `images/thumbs` directory. _You can do that on github.com itself or you can clone and push the images to your repo._
+4. Add your own custom domain in `CNAME` file or just remove the file if you don't own a domain and use the default domain that github provides ([yourusername].github.io/photography).
+5. Update `baseurl` field in `_config.yml` file with whatever domain you used in step 4.
+6. And that's it, your website is set. To view, go to [photography.rampatra.com](http://photography.rampatra.com) (or whatever you have in the CNAME file) and if you don't have one, you can go to [[yourusername].github.io/photography](http://yourusername.github.io/photography)
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file!
+And of course, you don't want my name at the bottom to show up. You can change it in `_config.yml` file as well as few other settings like your google analytics etc.
+ 
+## ProTips
+I have made this as an [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
+and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
 
-# Issues
+1. Fork and then clone the project to your computer
+2. Go inside the project `$ cd photography`
+3. Install all dependencies by `$ npm install`
+4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
+5. Run `$ gulp` to resize the images and to generate thumbnails automatically
+6. Push your changes to github.com by `$ git add --all` and `$ git commit -m "a nice commit message"` and then finally `$ git push origin master`
 
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/lens-jekyll-theme) and I will be more than happy to help!
+### Contact Form
+You can make the contact form work without the need of any server-side code. Just follow this [article on github](https://github.com/dwyl/html-form-send-email-via-google-script-without-server) which uses a simple google script to send emails or to upload to a google spreadsheet when someone submits the form.
 
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/lens-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/lens-jekyll-theme@incoming.gitlab.com).
+## Credits
+Thanks to [AJ](https://twitter.com/ajlkn) for the website template which I enhanced for [jekyll](http://jekyllrb.com/).
 
-The GitHub repository is simply a mirror of the GitLab repository.
+## Backers
 
-# Credits
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/photography#backers)]
 
-Original README from HTML5 UP:
+<a href="https://opencollective.com/photography#backers" target="_blank"><img src="https://opencollective.com/photography/backers.svg?width=890"></a>
 
-```
-Lens by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!-- <a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> -->
 
+## Sponsors
 
-This is Lens, a full screen (and entirely responsive) photo gallery design. Unlike previous
-designs I've done in this vein (Parallelism, for instance), this one eschews the usual
-lightbox in favor of a completely full screen experience -- one that I'm happy to say
-translates awesomely all the way down to the tiniest of mobile devices. Full instructions
-below!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Instructions:
-
-	Overview:
-
-		Lens is made up of three primary components:
-
-		- The "main wrapper": The skinny little column on the right. Home to what little
-		  "regular" content you may have (header, footer, anything else you want to cram
-		  in there), as well as ...
-
-		- The "thumbnails" section: A grid of thumbnails pointing to their respective
-		  full size images.
-
-		- The "viewer": Basically the rest of the page, and basically where your full size
-		  images will show up when a thumbnail is clicked.
-
-		Note: Only the main wrapper and the thumbnails section are actually present in
-		index.html. The viewer will be dynamically created on page load.
-
-	How it works:
-
-		Just add your thumbnails to the thumbnails section in the following format:
-
-			<article>
-				<a class="thumbnail" href="path/to/fullsize.jpg">
-					<img src="path/to/thumbnail.jpg" alt="" />
-				</a>
-				<h2>Title</h2>
-				<p>Description.</p>
-			</article>
-
-		And that's it. Lens will figure out the rest.
-
-	The "data-position" attribute:
-
-		As a full screen experience, the viewer will be subject to changes in its size and,
-		consequently, its aspect ratio. Since your full size images are basically applied as
-		backgrounds to the viewer itself, this means they'll probably (okay, definitely) get
-		cropped. All is not lost, however, as you can use the optional "data-position" attribute
-		to control how the full size image is positioned within the viewer. To do this, simply
-		add it to your thumbnail's <a> element and set it to any valid "background-position"
-		value. For example, this:
-
-			<a class="thumbnail" href="path/to/fullsize.jpg" data-position="top left">...</a>
-
-		... positions this particular full size image in the top left corner of the viewer (as
-		opposed to its center, the default), effectively limiting cropping to everything but
-		the top left corner.
-
-	Keyboard shortcuts:
-
-		Lens is set up to respond to the following keyboard shortcuts:
-
-		- Left Arrow: Go to previous image.
-		- Right Arrow: Go to next image.
-		- Up Arrow: Go to image above the current one in the thumbnails section.
-		- Down Arrow: Go to image below the current one in the thumbnails section.
-		- Space: Go to next image.
-		- Escape: Toggle the main wrapper.
-
-		Note: All keyboard shortcuts are disabled when the "xsmall" breakpoint is active
-		(since they don't really make a whole lot of sense there).
-
-	Other stuff:
-
-		- The main wrapper can be moved to the left by changing the "misc.main-side" variable
-		  in assets/sass/libs/_vars.scss to "left" (and of course recompiling your CSS).
-
-		- Additional tweakable settings can be found at the top of assets/js/main.js, but
-		  be aware most of these need to sync with certain Sass variables (see comments
-		  for details).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-
-```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/photography#sponsors)]
+ 
+<a href="https://opencollective.com/photography#sponsors" target="_blank"><img src="https://opencollective.com/photography/sponsors.svg?width=890"></a>
