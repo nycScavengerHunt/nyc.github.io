@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /:title/
+permalink: /firstClue/
 category: projects
 
 meta:

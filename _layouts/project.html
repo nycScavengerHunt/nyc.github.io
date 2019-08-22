@@ -39,12 +39,14 @@
 					<h2>{{ page.previous.project.title }}</h2>
 				</a>
 				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
+				<!--
+	    			{% if page.next and page.next.categories contains "projects" %}
 				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
 					<span class="h2">Next</span>
 					<h2>{{ page.next.project.title }}</h2>
 				</a>
-				{% endif %}
+				{% endif %} 
+				-->
 			</div>
 		</section>
 	</main>
