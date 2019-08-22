@@ -2,8 +2,8 @@
 title: NYC Scavenger Hunt
 description: Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>
 baseurl: "/home" # the subpath of your site, e.g. /blog
-url: ""https://nycscavengerhunt.github.io/" # the base hostname & protocol for your site
-author:
+url: "https://nycscavengerhunt.github.io/" # the base hostname & protocol for your site
+author: Scott
 
 # Collection settings
 collections:
