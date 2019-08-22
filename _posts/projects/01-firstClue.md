@@ -7,7 +7,7 @@ meta:
   keywords: "Jekyll, Pineapple"
 
 project:
-  title: "Red Pineapple"
+  title: "First Clue"
   type: "Jekyll"
   logo: "/assets/images/projects/redpineapple/logo.png"
 
