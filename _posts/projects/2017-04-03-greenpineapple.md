@@ -1,32 +1,26 @@
 ---
 layout: project
-permalink: /:title/
+permalink: /thirdClue/
 category: projects
 
 meta:
   keywords: "Jekyll, Pineapple"
 
 project:
-  title: "Green Pineapple"
+  title: "Third Clue"
   type: "Jekyll"
-  url: "https://github.com/arnolds/pineapple"
-  logo: "/assets/images/projects/greenpineapple/logo.png"
-  tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
+  logo: "/assets/images/projects/redpineapple/logo.png"
 
-agency:
-  title: "Green Pineapple Co"
-  url: "https://github.com/arnolds/pineapple"
-  year: "2017"
 
 images:
   - image:
-    url: "/assets/images/projects/greenpineapple/devices.jpg"
-    alt: "Green Pineapple website on tablet, mobile and desktop"
+    url: "/assets/images/projects/redpineapple/devices.jpg"
+    alt: "Red Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/greenpineapple/desktop.jpg"
-    alt: "Green Pineapple website on a desktop device"
+    url: "/assets/images/projects/redpineapple/desktop.jpg"
+    alt: "Red Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/greenpineapple/mobile.jpg"
-    alt: "Green Pineapple website on a mobile device"
+    url: "/assets/images/projects/redpineapple/mobile.jpg"
+    alt: "Red Pineapple website on a mobile device"
 ---
-<p>The pineapple is made up of mostly water (86%) and carbohydrates (13%), with almost no fat or protein. It has nutrients, vitamins, and minerals, including copper, potassium, calcium, magnesium, manganese, vitamin C, thiamin, B6, beta-carotene, and folate as well as soluble and insoluble fiber and bromelain.</p>
+<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>

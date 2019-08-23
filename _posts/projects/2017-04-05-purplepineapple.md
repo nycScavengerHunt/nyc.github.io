@@ -1,13 +1,13 @@
 ---
 layout: project
-permalink: /secondClue/
+permalink: /fifthClue/
 category: projects
 
 meta:
   keywords: "Jekyll, Pineapple"
 
 project:
-  title: "Second Clue"
+  title: "Fifth Clue"
   type: "Jekyll"
   logo: "/assets/images/projects/redpineapple/logo.png"
 
