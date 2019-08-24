@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /fifthClue/
+permalink: /alongthelogs/
 category: projects
 
 meta:
@@ -9,18 +9,23 @@ meta:
 project:
   title: "Fifth Clue"
   type: "Jekyll"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  logo: "/assets/images/projects/clue5/pic3.jpg"
 
 
 images:
   - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
+    url: "/assets/images/projects/clue5/pic1.jpg"
     alt: "Red Pineapple website on tablet, mobile and desktop"
   - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
+    url: "/assets/images/projects/clue5/pic2.jpg"
     alt: "Red Pineapple website on a desktop device"
   - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
+    url: "/assets/images/projects/clue5/pic4.jpg"
     alt: "Red Pineapple website on a mobile device"
 ---
-<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+
+<p>Times Square! (Taco)</p>
+<p></p>
+<p>Yum! If there was a good part of working at mirror me, this might be it.  While like most New Yorkers we have avoided Times Square, coming here dressed up fancy to see a show has always been a highlight.  I hope you commute walks thourhg the area haven't dimmed your opinion of all these bright memories either.</p>
+<p></p>
+<p>It's time to take a sharp turn, and head to somwhere where we didn't sit and enjoy our time but rather counted the minutes until it was over and we could get off.  To save you sometime head to the old location. GO quickly now, as there are still many clues ahead.</p>
