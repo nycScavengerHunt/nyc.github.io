@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /upthehill/
+permalink: /nexthardright/
 category: projects
 
 meta:
